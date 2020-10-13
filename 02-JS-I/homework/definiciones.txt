@@ -1,0 +1,28 @@
+VARIABLES
+Las variables son elementos que almacenan datos para poder utilizarlos más tarde en nuestro código, según los datos que contengan pueden ser numbers, strings, boolean.
+
+STRINGS
+Es un tipo de variable que se puede definir como una cadena de caracteres, al momento de definirla se realiza entre comillas. Por ejemplo: "casa", "Ernesto", "245"
+
+FUNCIONES
+Las funciones son objetos que nos permiten almacenar código para poder invocarlo más tarde y de esta forma evitar repetirse en la escritura del código.
+La sintaxis de la función es la siguiente:
+
+function nombredelafuncion(argumento1 , argumento2){
+
+//código de la función
+
+}
+
+Los argumentos son los datos que ingresaremos al momento de invocar la función y que se utilizarán hacia adentro del código de la función en las variables definidas oportunamente.
+Return es una declaración que utilizaremos dentro de una función y que nos permitirá devolver un "resultado" de esa función. Esta es la única manera de sacar de la función un dato utilizable en el resto del código. Otra cosa importante de saber es que cuando nuestra función llega a la instrucción RETURN da por finalizada la función, por lo que el código de la función que le siga a esta instrucción no se procesará.
+
+DECLARACIONES IF
+Las declaraciones if son pruebas lógicas que nos permitirán controlar el flujo de acciones de nuestro código a partir de operaciones de comparación como > < >= <= ==
+
+VALORES BOOLEANOS
+Los valores booleanos son el resultado de las pruebas lógicas y pueden ser dos: true o false.
+Por ejemplo:
+
+En una prueba lógica 1 > 0 daría como resultado booleano true, pero 0 > 1 daría false.
+
