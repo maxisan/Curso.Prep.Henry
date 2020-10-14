@@ -1,0 +1,30 @@
+EXPLICACIONES
+
+FOR
+
+For es un blucle que nos permite realizar tareas repetitivas con nuestro código estableciendo ciertos parámetros con anterioridad. Su sintaxis es la siguiente:
+
+for (var i=0; i <= 10 ; i++) {
+	//código a ejecutar
+	}
+
+Dentro de los argumentos de for definimos, primero el valor que le queremos asignar a la variable i, que será la señal que usaremos para establecer la finalización del bucle; luego, la condición de finalización del for ( i <= 10 ) en el ejemplo, es decir que mientras i sea menor o igual que 10, el bucle se seguirá repitiendo, y por último el ritmo de incremento de i; en este caso se incrementa de a uno a la vez.
+
+
+OPERADORES LOGICOS && || !
+
+Al momento de trabajar con valores booleanos, para definir condiciones de ejecucion de statements, por ejemplo, se pueden utilizar los operadores lógicos AND, FOR y NOT.
+
+AND (&&)
+Ej. a && b
+Devuelve el valor TRUE siempre que a y b sean TRUE
+
+OR (||)
+Ej. a || b
+Devuelve el valor TRUE si algunas de a o b son TRUE y FALSE sólo si ambas son FALSE
+
+NOT (!)
+Ej. !a
+Invierte el valor booleano del argumento que se está negando. En el ejemplo si a es TRUE !a es FALSE, por el contrario si a es FALSE !a es TRUE.
+
+Estos operadores se pueden combinar las veces que sea requerido según la lógica buscada.
