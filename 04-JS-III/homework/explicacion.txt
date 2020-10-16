@@ -1,0 +1,8 @@
+ARRAYS
+
+Los arrays son un tipo de dato que pueden contener uno o más datos en su interior. Esto nos da la ventaja de poder almacenar y gestionar diversos datos agrupados en un mismo elemento, por ejemplo:
+
+ListaDeCompras ['leche', 'huevos', 'azúcar', 'chocolates']
+
+Los arrays pueden contener cualquier tipo de datos e incluso funciones u otros arrays.
+
