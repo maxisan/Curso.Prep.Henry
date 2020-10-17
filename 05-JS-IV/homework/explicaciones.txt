@@ -1,0 +1,48 @@
+OBJETOS:
+
+Los objetos son elementos que nos permite agrupar mucha información sobre un mismo elemento y con datos de diferentes naturalezas.
+En algún sentido son similares a los arrays, con la diferencia que en estos últimos no es posible "identificar" la naturaleza del dato al que hacemos referencia. Por ejemplo, el array Alumno:
+
+Alumno[Maxi, 30, Argentina]
+
+contiene los datos nombre, edad y nacionalidad, pero debemos acordarnos de qué posición del array está asignado a cada dato, en el caso de un objeto lo identificamos gracias al par key:value, entonces:
+
+Alumno{
+//		key   : value,
+		nombre: 'Maxi',
+		edad: 30,
+		nacionalidad: 'Argentina',
+}
+
+Ahora Alumno es un objeto, y en caso de requerir una información del mismo simplemente la convocamos a partir de su key: 
+
+Alumno[nombre] -> 'Maxi'
+
+PROPIEDADES:
+Este par key:value se conoce como una propiedad del objeto. Las propiedades se pueden convocar para ser utilizadas cuando se necesiten. Es importante entender también que las claves de un objeto son únicas y no se pueden repetir. Además las propiedades de los objetos pueden ser de cualquier tipo de datos e incluso funciones, las que se denominan métodos de un objeto.
+
+METODOS
+Los métodos son funciones establecidas como propiedades de un objeto. Estas funciones se pueden invocar como cualquier propiedad para utilizar los elementos devueltos por la misma.
+
+BUCLE FOR...IN...
+
+Al recorrer un array utilizábamos el ciclo for o while, sin embargo no podemos utilizar este mismo método para recorrer las propiedades de un objeto ya que los índices del objeto no son numéricos. Es por eso que para recorrerlo en JS utilizamos el ciclo for ... in, el cual está diseñado para recorrer el objeto desde la primer propiedad y que detendrá el ciclo cuando llegue a la última.
+
+for (var variable in objeto){
+	console.log(variable);
+	console.log(objeto[variable]);
+}
+
+En este caso el ciclo for recorrerá todo el objeto "objeto" e imprimirá cada clave y cada valor del objeto.
+
+NOTACION [] Y DE PUNTOS
+Las diferentes notaciones nos servirán para invocar las propiedades y métodos del objeto.
+Ambas tienen sus ventajas y desventajas, en el caso de la notación de puntos permite simplificar mucho a la hora de escribir el código y es su principal beneficio:
+
+remplaza:
+
+objet[nombre];
+por
+objet.nombre;
+
+para llamar la propiedad nombre del objeto "object". La deficiencia de este tipo de notación es que no se pueden utilizar variables en la notación de puntos, por eso al querer usar variables para llamar a una propiedad se utiliza la notación de corchetes.
