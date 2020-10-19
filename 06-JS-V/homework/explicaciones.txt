@@ -1,0 +1,20 @@
+Prototype
+
+El Prototype de un objeto lo podemos pensar como una instancia más elevada de este objeto y del cual este puede heredar sus métodos y propiedades. El Prototype nos es realmente últil a la hora de definir métodos comunes para una clase de objetos, nos permitirá invocar un método en el prototipo y no tener que definirlos en cada uno de los objetos creados, lo cual implica un ahorro de recursos a la hora de correr el código.
+
+
+Constructors
+
+Los constructores son funciones que nos permitirán definir clases en JS, estas clases son a su vez moldes o plantillas que utilizaremos para la creación de objetos con las mismas propiedades. Su sintaxis es la siguiente:
+
+function Clase(argumento1, argumento2){
+	this.argumento1 = argumento1;
+	this.argumento2 = argumento2;
+} 
+
+y luego crearemos un nuevo objeto a partir de esta clase utilizando la palabra clave new:
+
+var NuevaClase = new Clase("esta es","una clase");
+var OtraClase = new Clase("y esta","otra clase");
+
+Entonces, las clases las podemos pensar como moldes para la creación de objetos de los cuales queremos conservar las mismas propiedades.
