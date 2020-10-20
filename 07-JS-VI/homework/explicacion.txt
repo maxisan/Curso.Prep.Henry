@@ -1,0 +1,3 @@
+CALLBACK
+
+Se denomina callback a una función que es utilizada como argumento de otra función. 
